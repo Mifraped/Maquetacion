@@ -23,6 +23,10 @@ div.contPrim{
             text-decoration: none;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+    h1{
+        text-align: center;
+        margin-top: 0;
+    }
     div.contSec{
         height: 93%;
         display: flex;
@@ -38,10 +42,15 @@ div.contPrim{
             padding-right: 100px;
         }
             div.texto{
+                width: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 padding-left: 20px;
                 text-align: center;
                 font-size: small;
+            }
+            img{
+                width: 50%;
+                height: 100%;
             }
