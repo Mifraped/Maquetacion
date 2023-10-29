@@ -141,11 +141,18 @@ div.descripcion{
                 background-image: url("./imagenes/Amsterdam.jpg");
                 background-repeat: no-repeat;
             }
+            .sombreado{
+                display: flex;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.259);
+                height: 50px;
+            }
                 p.fotoTargeta{
                     color: #fff;
                     font-size: 18px;
                     font-weight: 600;
                     padding-left: 15px;
+                    padding-right: 15px;
                     padding-bottom: 10px;
                 }
             div.textoTargeta{
