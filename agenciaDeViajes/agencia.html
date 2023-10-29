@@ -148,17 +148,19 @@
     <div class="formulario">
         <div class="formCont">
             <h1 class="form">Que tipo de viaje te interesa?</h1>
-            <input type="text" class="form" placeholder="Introduce tu nombre"></input>
-            <input type="text" class="form" placeholder="Desde donde quieres salir?"></input>
-            <input type="text" class="form" placeholder="A que destino quieres viajar?"></input>
+            <input type="text" class="form" placeholder="Introduce tu nombre" id="nombre"></input>
+            <input type="text" class="form" placeholder="Desde donde quieres salir?" id="origen"></input>
+            <input type="text" class="form" placeholder="A que destino quieres viajar?" id="destino"></input>
             <input type="number" class="form" placeholder="Cuantas personas sois?" id="persons"></input>
             <input type="date" class="form" placeholder="Que dia quieres salir?" id="fecha"></input>
             <div class="botones">
-                <button class="botonInfo" type="button">Solicitar informacion</button>
-                <button class="botonFiltrar" type="button">Filtrar</button>
+                <button class="botonInfo" type="button" onclick="recogeInfo()">Solicitar informacion</button>
+                <button class="botonFiltrar" type="button" onclick="filtra()">Filtrar</button>
             </div>
             
         </div>
     </div>
+    <div id="filtrado"></div>
+<script src="./agencia.js"></script>
 </body>
 </html>

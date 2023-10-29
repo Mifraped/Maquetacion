@@ -198,9 +198,6 @@ div.descripcion{
         justify-content: space-evenly;
         transform: scaleX(-1);
     }
-        h1.form{
-
-        }
         input.form{
             width: 25%;
             height: 30px;
@@ -212,7 +209,7 @@ div.descripcion{
             width: 13%;
         }
         #fecha{
-            width: 8%;
+            width: 10%;
         }
         .botonInfo{
             width: 200px;
