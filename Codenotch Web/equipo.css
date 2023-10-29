@@ -9,6 +9,10 @@ header{
     background-color: #040404;
     align-items: center;
     border: #040404 solid 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
     .logo{
         display: flex;
@@ -46,6 +50,8 @@ div.titulo{
     height: 100px;
     padding-left: 170px;
     padding-top: 30px;
+    margin-top: 80px;
+
 }
     h1.titulo{
         font-size: 45px;

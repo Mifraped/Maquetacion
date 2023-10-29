@@ -8,6 +8,10 @@ header{
     background-color: #040404;
     align-items: center;
     border: #040404 solid 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
     .logo{
         display: flex;
@@ -45,13 +49,19 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
     background-color: #0000ff;
+    margin-top: 80px;
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2021/09/Web-portada-3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1000;
+
 }
     .textImgMTL{
         display: flex;
         justify-content: space-between;
-        background-color: #0000ff;
+        background-color: #0000ff00;
         width: 80%;
         height: 500px;
     }
@@ -241,17 +251,21 @@ header{
             }
 .empieza{
     height: 400px;
-    background-color: #0000ff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
+#empieza{
+    background-image: url("http://codenotch.com/wp-content/uploads/2021/06/duotone-12@2x-600x167.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 h5.empieza{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200;
 }
 h1.empieza{

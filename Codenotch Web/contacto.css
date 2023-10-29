@@ -8,6 +8,10 @@ header{
     background-color: #040404;
     align-items: center;
     border: #040404 solid 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
     .logo{
         display: flex;
@@ -47,6 +51,8 @@ div.cuerpo{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
+
 }
     div.contFormImg{
         display: flex;
