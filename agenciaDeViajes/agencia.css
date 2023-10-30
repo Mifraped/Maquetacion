@@ -56,6 +56,7 @@ div.serviciosCont{
     div.servicios{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
         img.servicios{
             width: 7%;
@@ -93,9 +94,10 @@ div.descripcion{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
     .targetasCont{
-        width: 80%;
+        width: 67%;
         height: 95%;
         display: flex;
         justify-content: space-between;
@@ -116,6 +118,7 @@ div.descripcion{
                 justify-content: flex-end;
                 height: 60%;
                 filter: brightness(0.9);
+                width: 100%;
             }
             div.fotoTargeta#fotoTargeta1{
                 background-image: url("./imagenes/Vietnam.jpg");
