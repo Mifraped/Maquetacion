@@ -46,7 +46,7 @@ header{
             width: 100%;
         }
 div.cuerpo{
-    height: 81vh;
+    height: 83vh;
     background-color: #0055ff;
     display: flex;
     justify-content: center;
@@ -90,6 +90,7 @@ div.cuerpo{
                 color: white;
                 background-color:#040404;
                 cursor: pointer;
+                border: none;
             }
         div.img{
             display: flex;
