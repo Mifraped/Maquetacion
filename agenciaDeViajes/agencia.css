@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #ec5b14;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.contHead{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+    .logoOferta{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 40%;
+    }
+        .logo{
+            display: flex;
+            width: 30%;
+            height: 50%;
+            justify-content: space-between;
+        }
+            .imgLogo{
+                width: 20%;
+            }
+            .textoLogo{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 80%;
+                padding-left: 10px;
+                color: white;
+                font-size: 20px;
+                font-weight: 900;
+            }
+        .oferta{
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: rgb(223, 212, 206);
+        }
+div.serviciosCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+    div.servicios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        img.servicios{
+            width: 7%;
+        }
+        a.servicios{
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: rgb(223, 212, 206);
+            padding-left: 10px;
+        }
+div.descripcion{
+    height: 400px;
+    background-image: url("./imagenes/portadatailandiaweb2_1920x500.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+    h1.descripcion{
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #46403c;
+    }
+    h3.descripcion{
+        font-size: 30px;
+        font-weight: 800;
+    }
+.targetas{
+    height: 800px;
+    color: #46403c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+    .targetasCont{
+        width: 67%;
+        height: 95%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+        .targeta{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: 45%;
+            border: solid 2px lightgrey;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+            div.fotoTargeta{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                height: 60%;
+                filter: brightness(0.9);
+                width: 100%;
+            }
+            div.fotoTargeta#fotoTargeta1{
+                background-image: url("./imagenes/Vietnam.jpg");
+                background-repeat: no-repeat;
+            }
+            div.fotoTargeta#fotoTargeta2{
+                background-image: url("./imagenes/Italia.jpg");
+                background-repeat: no-repeat;
+            }
+            div.fotoTargeta#fotoTargeta3{
+                background-image: url("./imagenes/EEUU.jpg");
+                background-repeat: no-repeat;
+            }
+            div.fotoTargeta#fotoTargeta4{
+                background-image: url("./imagenes/India.jpg");
+                background-repeat: no-repeat;
+            }
+            div.fotoTargeta#fotoTargeta5{
+                background-image: url("./imagenes/Dubai.jpg");
+                background-repeat: no-repeat;
+            }
+            div.fotoTargeta#fotoTargeta6{
+                background-image: url("./imagenes/Amsterdam.jpg");
+                background-repeat: no-repeat;
+            }
+            .sombreado{
+                display: flex;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.259);
+                height: 50px;
+            }
+                p.fotoTargeta{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 600;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-bottom: 10px;
+                }
+            div.textoTargeta{
+                height: 40%;
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+                h5.descripcionTargeta{
+                    color: black;
+                }
+                p.descripcionTargeta{
+                    color: gray;
+                }
+                div.precio{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                    div.desdePrecio{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                        p.precio{
+                            display: flex;
+                            justify-content: flex-end;
+                            font-size: 10px;
+                            color: black;
+                        }
+                        h1.precio{
+                            color: black;
+                        }
+.formulario{
+    height: 550px;
+    background-color: #777776;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./imagenes/towards_the_sunset-Aircraft_HD_Wallpaper_1366x768.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    transform: scaleX(-1);
+}
+    .formCont{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transform: scaleX(-1);
+    }
+        input.form{
+            width: 25%;
+            height: 30px;
+            border: solid 2px grey;
+            border-radius: 5px;
+            margin-left: 15px;
+        }
+        #persons{
+            width: 13%;
+        }
+        #fecha{
+            width: 10%;
+        }
+        .botonInfo{
+            width: 200px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #fb4700;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .botonFiltrar{
+            width: 100px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #fb4700;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+        }
