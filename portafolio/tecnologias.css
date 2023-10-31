@@ -48,7 +48,7 @@ header{
         .tecnologia{
             display: flex;
             height: 13%;
-            width: 50%;
+            width: 25%;
             justify-content: center;
             align-items: center;
             transition: transform 0.5s ease;
@@ -67,7 +67,7 @@ header{
             }
             div.descripcion{
                 padding-left: 20px;
-                width: 40%;
+                width: 75%;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;

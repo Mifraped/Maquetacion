@@ -22,7 +22,7 @@ div.hola{
     justify-content: center;
     align-items: center;
 }
-#hola:hover{
+h1#hola:hover{
     color: #00ef81;
     cursor:pointer;
 }
