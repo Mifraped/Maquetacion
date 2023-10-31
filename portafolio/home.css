@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+div.container{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+div.hola{
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    z-index: 99999;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1#hola:hover{
+    color: #00ef81;
+    cursor:pointer;
+}
+div.quien{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    z-index: 9999;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quien:hover{
+    color: #00ef81;
+    cursor:pointer;
+}
+div.miguel{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    z-index: 999;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#miguel:hover{
+    color: #00ef81;
+    cursor:pointer;
+}
+div.continua{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    z-index: 99;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#continua:hover{
+    color: #00ef81;
+    cursor:pointer;
+}
+#enlaceCont{
+    text-decoration: none;
+    color: white;
+}
+
