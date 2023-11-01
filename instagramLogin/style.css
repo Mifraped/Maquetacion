@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+    div.body{
+        display: flex;
+        min-height: 650px;
+        width: 55%;
+    }
+        div.imgMovil{
+            height: 100%;
+            width: 55%;
+            padding-top: 20px;
+            /* background-image: url("./imagenes/fondoMovil.png");
+            background-repeat: no-repeat;
+            background-size: 90%; */
+        }
+            div.img1{
+                width: 100%;
+                z-index: 9;
+
+            }
+                div.img1 img{
+                    width: 100%;
+                }
+            /* div.img2{
+                width: 100%;
+                z-index: 99;
+            }
+                div.img2 img{
+                    width: 16.3%;
+                    position: relative;
+                    top: 85px;
+                    left: 500px;;
+                } */
+        section.body{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+            div.body1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                padding-top: 50px;
+                border: 1px #bcc0c4 solid;
+                margin-bottom: 10px;
+                padding-bottom: 20px;
+
+            }
+                div.logo{
+                    width: 55%;
+                    margin-bottom: 25px;
+                }
+                    div.logo img{
+                        max-width: 100%;
+                    }
+                input.usuario{
+                    width: 82%;
+                    height: 35px;
+                    border: solid 1px #bcc0c4;
+                    border-radius: 3px;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                    background-color: #FAFAFA;
+                }
+                input.contraseña{
+                    width: 82%;
+                    height: 35px;
+                    border: solid 1px #bcc0c4;
+                    border-radius: 3px;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    background-color: #FAFAFA;
+                }
+                input:focus{
+                    outline: none;
+                }
+                input::placeholder{
+                    font-size: 12px;
+                }
+                div.body1 button{
+                    width: 82%;
+                    height: 32px;
+                    border-radius: 7px;
+                    border: none;
+                    background-color: #4CB5F9;
+                    color: #ffff;
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                }
+                div.separador{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    width: 80%;
+                    gap: 15px;
+                    margin-bottom: 30px;
+                }
+                    div.separador hr{
+                        flex-grow: 1;
+                        height: 1px;
+                    }
+                    div.separador p{
+                        font-size: 13px;
+                        color: #737373;
+                    }
+                a.face{
+                    display: flex;
+                    width: 85%;
+                    height: 17px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    text-decoration: none;
+                    color: #385185;
+                    font-size: 15px;
+                    font-weight: 600;
+                    margin-bottom: 22px;
+                }
+                    a.face img{
+                        max-height: 100%;
+                    }
+                    a.face span{
+                        text-align: center;
+                    }
+                a.olvido{
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #385185;
+                    margin-bottom: 25px;
+                    width: 82%;
+                }
+                p.denuncia{
+                    font-size: 14px;
+                    width: 85%;
+                    font-size: 14px;
+                    text-align: center;
+                    color: #8A7373;
+                }
+                p.denuncia a{
+                    text-decoration: none;
+                    color: #385185;
+                }
+                p.denuncia a:hover{
+                    text-decoration:underline;
+                    text-decoration-color: #385185;
+
+                }
+            div.body2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                border: 1px solid #bcc0c4;
+                padding: 20px;
+                gap: 5px;
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+            }
+                div.body2 span{
+                    font-size: 16px;
+                    text-align: center;
+                }
+                div.body2 a{
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: #0095F8;
+                }
+            span.descarga{
+                margin-bottom: 17px;
+                text-align: center;
+            }
+            div.imgDescarga{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+                #google{
+                    height: 40px;
+                }
+                #micro{
+                    height: 40px;
+                }
