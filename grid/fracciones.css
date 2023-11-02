@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+.gridContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 2fr [y1] 1fr [y2];
+}
+.elem1{
+    grid-column: x0 / x1;
+    display: grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2] 2fr [x3];
+    grid-template-rows: [y0] 1fr [y1];
+}
+.elem2{
+    grid-column: x1 / x2;
+    display: grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2] 2fr [x3];
+    grid-template-rows: [y0] 1fr [y1];
+}
+.a{
+    background-color: yellowgreen;
+    color: black;
+}
+.b{
+    background-color: black;
+    color: white;
+}
+.c{
+    background-color: yellowgreen;
+    color: black;
+}
+.elem3{
+    grid-column: x0 / x1;
+    display: grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2] 2fr [x3];
+    grid-template-rows: [y0] 1fr [y1];
+}
+.elem4{
+    grid-column: x1 / x2;
+    display: grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2] 2fr [x3];
+    grid-template-rows: [y0] 1fr [y1];
+}
+.d{
+    background-color: black;
+    color: white;
+}
+.e{
+    background-color: yellowgreen;
+    color: black;
+}
+.f{
+    background-color: black;
+    color: white;
+}

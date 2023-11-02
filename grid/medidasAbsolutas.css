@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.gridContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 50% 50%;
+}
+.a{
+    background-color: greenyellow;
+}
+.b{
+    background-color: orange;
+}
+.c{
+    background-color: orangered;
+}
+.d{
+    background-color: red;
+}
+.e{
+    background-color: blue;
+}
+.f{
+    background-color: yellow;
+}
