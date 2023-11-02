@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color: #040404;
+    align-items: center;
+    border: #040404 solid 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+    .logo{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+    }
+    .links{
+        display: flex;
+        width: 40%;
+        justify-content: space-evenly;
+    }
+        .linksHeader{
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+    .linkAplica{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        background-color: #0000ff;
+        height: 80%;
+        border-radius: 10px;
+    }
+        a.linkAplica{
+            color: #fcfffd;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            width: 100%;
+        }
+div.cuerpo{
+    height: 83vh;
+    background-color: #0055ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+    div.contFormImg{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+        div.form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        }
+            h1.form{
+                color: #fcfffd;
+                font-size: 70px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+            }
+            h4.form{
+                color: #fcfffd;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 300;
+            }
+            input{
+                width: 50%;
+                height: 25px;
+                background-color: #fcfffd;
+                border-radius: 5px;
+            }
+            button{
+                width: 25%;
+                height: 35px;
+                border-radius: 5px;
+                color: white;
+                background-color:#040404;
+                cursor: pointer;
+                border: none;
+            }
+        div.img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+        }
+            .img.img{
+                width: 45%;
+            }
+
+
+
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: #040404;
+    height: 80px;
+}
+    div.derechos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+    p.derechos{
+        color: rgba(255,255,255,0.6);
+    }
+    .linksFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+    .footerImg{
+        width: 15%;
+    }
+        
