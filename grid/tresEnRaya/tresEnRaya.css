@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 100vh;
+    background-color: #dfdfdf;
+    padding: 20px;
+}
+header{
+    display: flex;
+}
+    .resumen{
+        width: 350px;
+        background-color: #212121;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+    }
+        .resumen div span{
+            font-size: 20px;
+            
+            font-weight: 900;
+            color: #adff2f;
+        }
+        .resumen button{
+            width: 80px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #c41e3a;
+        }
+        .felicitacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 200px;
+        }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .gridCont{
+            width: 400px;
+            height: 400px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+            grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+            margin-bottom: 30px;
+        }
+            .gridCont div{
+                background-color: #808080;
+                margin: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            div.grid1{
+                grid-column: x0 / x1;
+                grid-row: y0 / y1;
+                
+            }
+            div.grid2{
+                grid-column: x1 / x2;
+                grid-row: y0 / y1;
+            }
+            div.grid3{
+                grid-column: x2 / x3;
+                grid-row: y0 / y1;
+            }
+            div.grid4{
+                grid-column: x0 / x1;
+                grid-row: y1 / y2;
+            }
+            div.grid5{
+                grid-column: x1 / x2;
+                grid-row: y1 / y2;
+            }
+            div.grid6{
+                grid-column: x2 / x3;
+                grid-row: y1 / y2;
+            }
+            div.grid7{
+                grid-column: x0 / x1;
+                grid-row: y2 / y3;
+            }
+            div.grid8{
+                grid-column: x1 / x2;
+                grid-row: y2 / y3;
+            }
+            div.grid9{
+                grid-column: x2 / x3;
+                grid-row: y2 / y3;
+            }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            footer button{
+                height: 40px;
+                width: 200px;
+                background-color: #c41e3a;
+                font-size: 15px;
+                font-weight: 600;
+                border-radius: 5px;
+                cursor: pointer;
+            }

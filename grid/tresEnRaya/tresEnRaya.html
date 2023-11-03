@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+    <link rel="stylesheet" href="tresEnRaya.css">
+</head>
+
+<body>
+    <header>
+        <div class="resumen">
+            <div class="victorias1">
+                <span class="fijo">Victorias Jugador 1: </span>
+                <span class="var" id="vict1">0</span>
+            </div>
+            <div class="victorias2">
+                <span class="fijo">Victorias Jugador 2: </span>
+                <span class="var" id="vict2">0</span>
+            </div>
+            <div class="partidas">
+                <span class="fijo">Numero de partidas: </span>
+                <span class="var" id="numPar">0</span>
+            </div>
+            <button type="button" onclick="reset()">Reset</button>
+        </div>
+        <div class="felicitacion">
+            <h1 id="felicitacion"><span></span></h1>
+        </div>
+    </header>
+    <main>
+        <div class="gridCont">
+            <div class="grid1 casilla" onclick="selecciona(this)"></div>
+            <div class="grid2 casilla" onclick="selecciona(this)"></div>
+            <div class="grid3 casilla" onclick="selecciona(this)"></div>
+            <div class="grid4 casilla" onclick="selecciona(this)"></div>
+            <div class="grid5 casilla" onclick="selecciona(this)"></div>
+            <div class="grid6 casilla" onclick="selecciona(this)"></div>
+            <div class="grid7 casilla" onclick="selecciona(this)"></div>
+            <div class="grid8 casilla" onclick="selecciona(this)"></div>
+            <div class="grid9 casilla" onclick="selecciona(this)"></div>
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="reinicioPart" onclick="reiniciaPartida()" disabled>Reiniciar partida</button>
+    </footer>
+</body>
+<script src="./tresEnRaya.js"></script>
+</html>
