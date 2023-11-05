@@ -1,0 +1,36 @@
+#aPeliculas:hover{
+    color: white !important;
+}
+#aProfesionales:hover{
+    color: white !important;
+}
+@media screen and (max-width: 476px){
+    #tituloForm{
+        margin-left: 10px !important;
+        padding-left: 0 !important;
+    }
+    div.ms-5{
+        margin-left: 10px !important;
+    }
+    input{
+        width: 95% !important;  
+    }
+    button.btn{
+        margin-left: 10px !important;
+    }
+}
+@media screen and (max-width: 311px){
+    #header{
+        height: 200px !important; 
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .navbar-brand{
+        padding: 0 !important;
+    }
+    .nav-link{
+        margin: 0 !important;
+    }
+}

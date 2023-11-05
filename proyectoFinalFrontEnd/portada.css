@@ -1,0 +1,12 @@
+div.contCuerpo{
+    height: 100vh;
+    background-image: url("./imagenes/filmoscope-4k-retro-smoke-cinema.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aPeliculas:hover{
+    color: white !important;
+}
+#aProfesionales:hover{
+    color: white !important;
+}
