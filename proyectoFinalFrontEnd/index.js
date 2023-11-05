@@ -64,35 +64,39 @@ jQuery(() => {
 
     $("#boton").on("click", () => {
 
-        let arrAct = $("#actoresPeli").val().split(",")
-        let arrActSinSpac = arrAct.map(elem => elem.trim())
-        let arrActPrimEsp = arrActSinSpac.map(elem => " "+ elem)
+        if($("#nomPeli").val() && $("#anyoPeli").val() && $("#actoresPeli").val() && $("#nacionPeli").val() && $("#dirPeli").val() && $("#guionPeli").val() && $("#generoPeli").val() && $("#urlPortada").val()){
 
-        let nuevaPeli = new Movie($("#nomPeli").val(), $("#anyoPeli").val(), [...arrActPrimEsp],$("#nacionPeli").val(), $("#dirPeli").val(), $("#guionPeli").val(), $("#generoPeli").val(), $("#urlPortada").val())
+            let arrAct = $("#actoresPeli").val().split(",")
+            let arrActSinSpac = arrAct.map(elem => elem.trim())
+            let arrActPrimEsp = arrActSinSpac.map(elem => " "+ elem)
 
-        arrPelis.push(nuevaPeli)
-        
-        $(".contCuerpo").append(`<div class="card mb-3 bg-secondary d-flex justify-content-center align-items-center mb-5"
-                                    style="max-width: 400px;">
-                                    <div class="row g-0">
-                                        <div class="col-md-4 ps-2 d-flex justify-content-center align-items-center foto">
-                                            <img src="${arrPelis[arrPelis.length -1].photo}" class="img-fluid rounded-start" alt="img">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-black">${arrPelis[arrPelis.length - 1].title}</h5>
-                                                <h6 class="fs-6">Año: ${arrPelis[arrPelis.length - 1].releaseYear}</h6>
-                                                <h6 class="fs-6">Actores: ${arrPelis[arrPelis.length -1].actors}</h6>
-                                                <h6 class="fs-6">Nacionalidad: ${arrPelis[arrPelis.length - 1].nacionality}</h6>
-                                                <h6 class="fs-6">Director: ${arrPelis[arrPelis.length - 1].director}</h6>
-                                                <h6 class="fs-6">Guionista: ${arrPelis[arrPelis.length - 1].writer}</h6>
-                                                <h6 class="fs-6">Genero: ${arrPelis[arrPelis.length - 1].genre}</h6>
+            let nuevaPeli = new Movie($("#nomPeli").val(), $("#anyoPeli").val(), [...arrActPrimEsp],$("#nacionPeli").val(), $("#dirPeli").val(), $("#guionPeli").val(), $("#generoPeli").val(), $("#urlPortada").val())
+
+            arrPelis.push(nuevaPeli)
+            
+            $(".contCuerpo").append(`<div class="card mb-3 bg-secondary d-flex justify-content-center align-items-center mb-5"
+                                        style="max-width: 400px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4 ps-2 d-flex justify-content-center align-items-center foto">
+                                                <img src="${arrPelis[arrPelis.length -1].photo}" class="img-fluid rounded-start" alt="img">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-black">${arrPelis[arrPelis.length - 1].title}</h5>
+                                                    <h6 class="fs-6">Año: ${arrPelis[arrPelis.length - 1].releaseYear}</h6>
+                                                    <h6 class="fs-6">Actores: ${arrPelis[arrPelis.length -1].actors}</h6>
+                                                    <h6 class="fs-6">Nacionalidad: ${arrPelis[arrPelis.length - 1].nacionality}</h6>
+                                                    <h6 class="fs-6">Director: ${arrPelis[arrPelis.length - 1].director}</h6>
+                                                    <h6 class="fs-6">Guionista: ${arrPelis[arrPelis.length - 1].writer}</h6>
+                                                    <h6 class="fs-6">Genero: ${arrPelis[arrPelis.length - 1].genre}</h6>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>`)
+                                    </div>`)
 
-        $("input").val("")
-        console.log(arrActSinSpac instanceof Array);
+            $("input").val("")
+        }else alert("Faltan campos por rellenar")
+
+        
     })
 })
