@@ -10,7 +10,7 @@ let arrPelis = [
 let arrProf = [
     new Professional("John Cleese", 84, "Britanica", 0, "Actor", "Si", "./imagenes/John_Cleese_(cropped).jpg"),
     new Professional("Christopher LLoid", 85, "Estadounidense", 0, "Actor", "Si", "./imagenes/Christopher_Lloyd_May_2015.jpg"),
-    new Professional("Luis Zahera", 57, "", 0, "Actor", "No", "./imagenes/luis_zahera.jpg")
+    new Professional("Luis Zahera", 57, "Español", 0, "Actor", "No", "./imagenes/luis_zahera.jpg")
 ]
 
 jQuery(() => {
@@ -64,8 +64,11 @@ jQuery(() => {
     $("#boton").on("click", () => {
 
         let nuevaPeli = new Movie($("#nomPeli").val(), $("#anyoPeli").val(), $("#nacionPeli").val(), $("#dirPeli").val(), $("#guionPeli").val(), $("#generoPeli").val(), $("#urlPortada").val())
+        
         arrPelis.push(nuevaPeli)
+
         $("input").val("")
+        
         $(".contCuerpo").append(`<div class="card mb-3 bg-secondary d-flex justify-content-center align-items-center"
         style="max-width: 400px;">
         <div class="row g-0">
